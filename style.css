@@ -7,4 +7,84 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 5px;
+}
+
+.nav__lower{
+    display: flex;
+    justify-content: space-around;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 10px 0px;
+    /* box-shadow: 60px -16px rgb(0, 128, 128, .3); */
+}
+
+.nav__lower a{
+    color: blue;
+}
+
+.sign-in{
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.get-started{
+    border: 2px solid black;
+    padding: 3px;
+    color: black;
+    text-decoration: none;
+    box-shadow: 10px 5px 5px teal;
+}
+
+.upper__left{
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 150px;
+}
+
+h1, h2, p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.external_links a{
+    color: blue;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    padding: 0px 150px;
+}
+
+.grid a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__right a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer__right{
+    padding: 10px;
+}
+
+a:hover{
+    color: red;
 }
